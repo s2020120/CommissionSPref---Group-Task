@@ -46,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
                 SharedPreferences.Editor editor = sharedPreferences.edit();
                 editor.putString("NAME", Name);
                 editor.putInt("NetPay", NetPay);
-
                 editor.apply();
 
                 Intent intent = new Intent(MainActivity.this, Activity2.class);
